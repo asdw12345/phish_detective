@@ -15,9 +15,13 @@ python phish_detective.py --url url
 ## Dependencies
 
 * `tesseract` for Optical Character Recognition.
+* At the time of writing, the Firefox driver in `selenium` does not work in my
+  Mac OS X 10.11.4` with the most recent version (47.0) of Firefox.
+  However, downgrading Firefox to version 45.0.2 solves the problem.
 
 
 ## Todo
 
-* Clean the `requirements.txt` files, which is currently encompassing the full Anaconda distribution and them some.
+* Clean the `requirements.txt` files, which is currently encompassing the full
+  Anaconda distribution and them some.
 
