@@ -15,3 +15,9 @@ python phish_detective.py --url url
 ## Dependencies
 
 * `tesseract` for Optical Character Recognition.
+
+
+## Todo
+
+* Clean the `requirements.txt` files, which is currently encompassing the full Anaconda distribution and them some.
+
