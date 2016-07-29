@@ -30,7 +30,18 @@ $ conda create --name phish_detective --file package-list.txt
 $ pip install -r requirements.txt
 ```
 
-Next switch to the newly created environment and run a test:
+Next, open the file `website_fetcher.py` and find the lines
+
+```
+# path to a Firefox log file
+FFLOG = "/Users/kalle/Desktop/firefox_log.txt"
+
+# Default root for storing sitedata
+DLROOT = "/Users/kalle/Desktop/"
+```
+
+Modify these paths to your liking.
+Lastly, switch to the newly created environment and run a test:
 
 ```
 $ source activate phish_detective
